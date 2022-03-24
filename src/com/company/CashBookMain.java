@@ -3,7 +3,7 @@ package com.company;
 public class CashBookMain {
 
     public static void main(String[] args) {
-        final PersonalSpendingChecker personalSpendingChecker = new PersonalSpendingChecker(1000, "8213831", "Ben");
+        final FamilyFundAccount personalSpendingChecker = new FamilyFundAccount(1000.00, "8213831", "Ben");
 
         System.out.println("********************Account Details********************");
 
